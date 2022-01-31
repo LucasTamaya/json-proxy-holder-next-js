@@ -15,7 +15,7 @@ export default function Home() {
           </Link>
 
           <a
-            href="https://github.com/LucasTamaya/JsonProxyHolder"
+            href="https://github.com/LucasTamaya/json-proxy-holder-next-js"
           >
             <button className={styles.home__links__button}>See on GitHub</button>
           </a>

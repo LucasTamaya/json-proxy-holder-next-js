@@ -8,8 +8,8 @@
     column-gap: 20px;
 }
 
-.footer__icon{
-    font-size: 3rem;
+.footer svg{
+    width: 30px;
     color: var(--font-color);
     cursor: pointer;
 }

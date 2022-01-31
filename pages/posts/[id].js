@@ -29,7 +29,7 @@ const SinglePost = ({ post, comments }) => {
         <div className={styles.card}>
           <h1 className={styles.card__title}>{post.title}</h1>
           <p className={styles.card__body}>{post.body}</p>
-          <p className={styles.card__user}>
+          <p className={styles.card__user} key={post.id}>
             By <span>user {post.userId}</span>
           </p>
         </div>

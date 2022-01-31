@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.header__nav}>
-        <Link href="/" className={styles.header__nav__link}>
+        <Link href="/">
           Home
         </Link>
-        <Link href="/posts" className={styles.header__nav__link}>
+        <Link href="/posts">
           All posts
         </Link>
       </nav>

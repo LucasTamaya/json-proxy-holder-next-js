@@ -1,0 +1,20 @@
+.header{
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    column-gap: 20px;
+}
+
+.header__nav__link{
+    color: var(--font-color);
+    font-weight: 700;
+    position: relative;
+    font-size: 1.3rem;
+}

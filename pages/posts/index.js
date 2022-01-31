@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const getServerSideProps = async (context) => {
   // fetch vers notre proxy
-  const res = await fetch("http://localhost:3000/api/posts");
+  const res = await fetch("https://json-proxy-holder-next-js-lucastamaya.vercel.app/api/posts");
   const data = await res.json();
 
   return {

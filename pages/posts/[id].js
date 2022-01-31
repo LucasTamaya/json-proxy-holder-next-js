@@ -3,13 +3,13 @@ import styles from "../../styles/AllPosts.module.css";
 export const getServerSideProps = async (context) => {
   // fetch vers notre proxy pour récupérer le post correspondant à l'id
   const resPost = await fetch(
-    `http://localhost:3000/api/posts/${context.params.id}`
+    `https://json-proxy-holder-next-js-lucastamaya.vercel.app/api/posts/${context.params.id}`
   );
   const post = await resPost.json();
 
   // fetch vers notre proxy pour récupérer les commentaires du post correspondant à l'id
   const resComments = await fetch(
-    `http://localhost:3000/api/posts/${context.params.id}/comments`
+    `https://json-proxy-holder-next-js-lucastamaya.vercel.app/api/posts/${context.params.id}/comments`
   );
   const comments = await resComments.json();
 
